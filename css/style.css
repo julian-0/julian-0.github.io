@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    letter-spacing: 1px;
+}
+
+.interacciones{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.nav-inicio{
+    font-size: 22px;
+}
+
+
+#fotoPrincipal{
+    width:100%;
+}
+
+.redes li img{
+    width:2%;
+}
