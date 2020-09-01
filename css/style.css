@@ -5,6 +5,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.bienvenida{
+    display: inline-block;
+}
+
+.icon{
+    display: inline-block;
+}
+
+.icon:hover {
+    animation: wobble 1s;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
