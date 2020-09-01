@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/cara.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Julian Ordoñez</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-inicio">
+                <h4>🏠</h4>
+            </div>
+
+            <div class="interacciones">
+                <ul class="nav-list">
+                    <li><a href="#sobreMi">Sobre mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#estudios">Estudios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <div class="switches">
+                    <div class="tema">
+                        <input type="checkbox" name="" id="tema">
+                        <label for="tema">🌞/🌑</label>
+                    </div>
+                    <div class="idioma">
+                        <input type="checkbox" name="" id="idioma">
+                        <label for="idioma">EN/ES</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="principal">
+            <p>👋 Hola!</p>
+            <h1>Soy Julian Ordoñez</h1>
+            <p>Estudiante de Ingenieria en Sistemas</p>
+            <img src="img/cara.png" alt="Cara de Julian">
+            <p><a href="CV - Julián Mateo Ordóñez.pdf">Descargar CV</a></p>
+        </div>
+
+        <article class="sobreMi" id="sobreMi">
+            <div>
+                <h2>Sobre mi</h2>
+                <img id="fotoPrincipal" src="img/polo.jpg" alt="Imagen de Julian">
+            </div>
+        </article>
+
+        <article class="proyectos" id="proyectos">
+            <div>
+                <h2>Mis proyectos 💻</h2>
+
+
+                <div>
+
+                    <a target="_blank" href="https://github.com/julian-0/CovidAr-19">CovidAr-19</a>
+                    <p>🦠</p>
+                    <p>Script que genera los gráficos para un bot que informa sobre el Covid-19 en Argentina</p>
+                    <ul>
+                        <li>Python</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <a target="_blank" href="https://github.com/julian-0/QueMePongo">Qué me pongo</a>
+                    <p>👔</p>
+                    <p>Qué me pongo fue un proyecto de la materia Diseño de sistemas dedicado al
+                        armado de atuendos adecuados a las condiciones climáticas y preferencias de
+                        los usuarios.Esta aplicación fue desarrollada integrando patrones de diseño,
+                        API's, servicios REST, arquitectura MVC, bases de datos, diseño y arquitectura
+                        web y testing.</p>
+                    <p>El proyecto se puede ver en qmpongo.herokuapp.com</p>
+                    <p>Tecnologías usadas: Maven, JUnit, Hibernate ORM, MySQL, Spark Java (WebApp), Heroku</p>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="https://github.com/julian-0/Interpolador" target="_blank">Interpolador Finter</a>
+                    <p>📝</p>
+                    <p>
+                        Finter es un programa que permite obtener el polinomio interpolante mediante
+                        dos métodos para un conjunto de puntos que se ingresen.
+                        La interfaz gráfica fue desarrollada con Tkinter y se utilizo Sympy para los
+                        cálculos.
+                    </p>
+                    <ul>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="https://github.com/julian-0/Ofertas" target="_blank">Ofertas</a>
+                    <p>💸</p>
+                    <p>
+                        Este programa simula la implementación de un nuevo sistema que permite la
+                        comercialización de ofertas y cupones. El sistema cuenta con con una interfaz
+                        grafica con múltiples ABM y roles.
+                        La implementación de dicho sistema requirió previamente realizar la migración
+                        de los datos desnormalizados que se tenían hasta el momento, para ello que fue
+                        necesario que se reformulen los procesos y el diseño de la base de datos.
+                    </p>
+                    <p>Desarrollado con Windows Forms C#</p>
+                    <ul>
+                        <li>C#</li>
+                        <li>SQL Server</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="https://github.com/julian-0/Lissandra" target="_blank">Lissandra</a>
+                    <p>💾</p>
+                    <p>
+                        El proyecto formaba parte de la materia Sistemas Operativos y su objetivo
+                        consistía en desarrollar una solución que permita la simulación de ciertos
+                        aspectos de una base de datos distribuida, es decir donde los distintos recursos
+                        del sistema puedan realizar una carga de trabajo ejecutando desde distintos
+                        puntos. Sus partes eran filesystem, memorias y kernel.
+                    </p>
+                    <p>
+                        Conceptos usados: Estructuras de datos, múltiples hilos y procesos, sockets,
+                        makefiles, persistencia en archivos.
+                    </p>
+                    <ul>
+                        <li>C</li>
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="estudios" id="estudios">
+            <div>
+                <h2>Mis estudios 🤓</h2>
+                <div>
+                    <div class="estudios_img">
+                        <img src="img/utn.png" alt="Logo UTN-BA">
+                    </div>
+                    <div class="estudios-contenido">
+                        <h4>Ingenieria en Sistemas de Información</h4>
+                        <p>Universidad Tecnologica Nacional - Buenos Aires</p>
+                        <p>Actualmente cursando cuarto año con 26 materias aprobadas y un promedio de 8.12</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="estudios_img">
+                        <img src="img/cAc.png" alt="Logo Codo a Codo">
+                    </div>
+                    <div class="estudios-contenido">
+                        <h4>Desarrollador Fullstack</h4>
+                        <p>Ministerio de Educación de la Ciudad de Buenos Aires</p>
+                        <p>Programa Codo a Codo, aprendi HTML, CSS, JS</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="estudios_img">
+                        <img src="img/mbc.png" alt="Logo MBC">
+                    </div>
+                    <div class="estudios-contenido">
+                        <h4>Bachiller - Perito Mercantil</h4>
+                        <p>Instituto Madre del Buen Consejo</p>
+                        <p>Promedio 8.2</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="idiomas" id="idiomas">
+            <h2>Idiomas 🌎</h2>
+
+            <div class="idiomas_ingles">
+                <h4>Ingles</h4>
+                <img src="img/uk.png" alt="Bandera de UK">
+            </div>
+
+            <div class="idiomas_español">
+                <h4>Español</h4>
+                <img src="img/argentina.png" alt="Bandera de Argentina">
+            </div>
+
+        </article>
+
+        <article>
+            <div class="contacto">
+                <h2>Contactame 📨</h2>
+                <form action="https://formspree.io/xoqkonpl" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="_replyto" placeholder="Tu mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="_subject" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+
+    </section>
+
+    <footer>
+        <ul class="redes">
+            <li>
+                <a target="_blank" href="https://www.linkedin.com/in/juli%C3%A1n-ordo%C3%B1ez/"><img
+                        src="img/logos/linkedin.png" alt="Linkedin"></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/julian-0"><img src="img/logos/github.png" alt="GitHub"></a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.instagram.com/julian.ord/?hl=es"><img src="img/logos/instagram.png"
+                        alt="Instagram"></a>
+            </li>
+        </ul>
+
+        <div>
+            <p>Made with 💜 by <span>Julian</span></p>
+        </div>
+
+        <div>
+            Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>
