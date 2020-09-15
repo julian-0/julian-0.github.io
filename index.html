@@ -15,16 +15,18 @@
     <header>
         <nav>
             <div class="nav-inicio">
-                <h4>🏠</h4>
+                <h4><a href="index.html">🏠</a></h4>
             </div>
 
             <div class="interacciones">
-                <ul class="nav-list">
-                    <li><a href="#sobreMi">Sobre mi</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#estudios">Estudios</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
+                <div class="container-links">
+                    <ul class="nav-list">
+                        <li><a href="#sobreMi">Sobre mi</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#estudios">Estudios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
                 <div class="switches">
                     <div class="tema">
                         <input type="checkbox" name="" id="tema">
@@ -41,12 +43,17 @@
 
     <section>
 
-        <div id="principal">
-            <span class="bienvenida"><span class="icon">👋</span> Hola!</span>
-            <h1>Soy Julian Ordoñez</h1>
-            <p>Estudiante de Ingenieria en Sistemas</p>
-            <img src="img/cara.png" alt="Cara de Julian">
-            <p><a href="CV - Julián Mateo Ordóñez.pdf">Descargar CV</a></p>
+        <div class="principal">
+            <div class="principal-texto">
+                <span class="bienvenida"><span class="icon">👋</span> Hola!</span>
+                <h1 class="soy">Soy <span>Julian Ordoñez</span></h1>
+                <p>Estudiante de Ingenieria en Sistemas</p>
+                <p class="descarga"><a href="CV - Julián Mateo Ordóñez.pdf" target="_blank">Descargar CV</a></p>
+            </div>
+
+            <div class="principal-imagen">
+                <img src="img/julian.jpg" alt="Cara de Julian">
+            </div>
         </div>
 
         <article class="sobreMi" id="sobreMi">

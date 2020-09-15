@@ -7,6 +7,7 @@
 
 .bienvenida{
     display: inline-block;
+    color: #0075f6;
 }
 
 .icon{
@@ -23,22 +24,85 @@ nav{
     align-items: center;
     min-height: 8vh;
     letter-spacing: 1px;
+    padding: 10px 16px;
 }
 
 .interacciones{
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    /* width: 40%; */
+}
+
+.container-links{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .nav-list{
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    /* width: 80%; */
+    list-style: none;
+}
+
+.nav-list a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
 }
 
 .nav-inicio{
     font-size: 22px;
+    padding-left: 4%;
+}
+
+.principal-imagen{
+    width: 50%;
+    position: relative;
+    left: 40%;
+}
+
+.principal-imagen img{
+    width: 100%;
+}
+
+.principal-texto{
+    position: absolute;
+    top: 30%;
+    z-index: 100;
+    left: 5%;
+}
+
+.principal-texto h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+/* TODO: no anda mover el icono cuando hago hover en el titulo */
+.soy:hover + .icon{
+    animation: wobble 1s;
+}
+
+.descarga{
+    display: inline-block;
+    border: 2px solid #0075f6;
+    margin-top: 10px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+}
+
+.descarga a{
+    text-decoration: none;
+    color: #0075f6;
+}
+
+.principal-texto h1 span{
+    color: #0075f6;
 }
 
 
