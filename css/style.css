@@ -85,7 +85,7 @@ nav{
 
 .principal-texto{
     position: absolute;
-    top: 30%;
+    top: 200px;
     z-index: 100;
     left: 5%;
 }
@@ -116,11 +116,6 @@ nav{
     color: #0075f6;
 }
 
-
-#fotoPrincipal{
-    width:100%;
-}
-
 .redes li img{
     width:2%;
 }
@@ -128,3 +123,53 @@ nav{
 section{
     margin-top: 80px;
 }
+
+.sobreMi{
+    padding: 100px 0;
+}
+
+.container-sobreMi{
+    display: flex;
+}
+.sobreMi-img{
+    width: 800px;
+    margin-left: 100px;
+}
+.sobreMi-texto{
+    margin: 30px;
+}
+#fotoPrincipal{
+    width: 100%;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    /* font-size: 18px; */
+    border: none;
+    outline: none;
+    background-color: #0077f696;
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  #myBtn img{
+      height: 15px;
+  }
+  #myBtn:hover {
+    background-color:  #0075f6;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .principal-imagen{
+        width: 100%;
+        left: 0%;
+    }
+    .principal-texto h1,p{
+        color: white;
+    }
+  }
