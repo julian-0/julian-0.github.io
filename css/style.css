@@ -151,11 +151,11 @@ section{
     border: none;
     outline: none;
     background-color: #0077f696;
-    color: black;
     cursor: pointer;
-    border-radius: 50%;
-    padding: 15px;
-  }
+    border-radius: 60px;
+    width: 50px;
+    height: 50px;    
+}
   #myBtn img{
       height: 15px;
   }
