@@ -172,3 +172,22 @@ section{
         color: white;
     }
   }
+
+  .estudios-img img{
+    width: 80px;
+  }
+
+  .idiomas img{
+      width: 80px;
+  }
+
+  .despedida{
+      background-color: rgb(61, 61, 61);
+      color: white;
+      display: flex;
+      justify-content: center;
+  }
+  .despedida p{
+      padding: 2px 0;
+      margin: auto 0;
+  }
