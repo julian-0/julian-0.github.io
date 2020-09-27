@@ -155,39 +155,44 @@ section{
     width: 50px;
     height: 50px;    
 }
-  #myBtn img{
-      height: 15px;
-  }
-  #myBtn:hover {
-    background-color:  #0075f6;
-  }
+#myBtn img{
+    height: 15px;
+}
+#myBtn:hover {
+background-color:  #0075f6;
+}
 
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .principal-imagen{
-        width: 100%;
-        left: 0%;
-    }
-    .principal-texto h1,p{
-        color: white;
-    }
-  }
+@media only screen and (max-width: 768px) {
+/* For mobile phones: */
+.principal-imagen{
+    width: 100%;
+    left: 0%;
+}
+.principal-texto h1,p{
+    color: white;
+}
+}
 
-  .estudios-img img{
+.estudios-img img{
+width: 80px;
+}
+
+.idiomas img{
     width: 80px;
-  }
+}
 
-  .idiomas img{
-      width: 80px;
-  }
+.despedida{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.despedida p{
+    padding: 2px 0;
+    margin: auto 0;
+}
 
-  .despedida{
-      background-color: rgb(61, 61, 61);
-      color: white;
-      display: flex;
-      justify-content: center;
-  }
-  .despedida p{
-      padding: 2px 0;
-      margin: auto 0;
-  }
+.proyectos .card-deck{
+    margin-left: 0;
+    margin-right: 0;
+}
