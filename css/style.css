@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .bienvenida{
     display: inline-block;
     color: #0075f6;
