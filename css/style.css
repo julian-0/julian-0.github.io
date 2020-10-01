@@ -187,6 +187,9 @@ background-color:  #0075f6;
     .principal-texto h1, .principal-texto p{
         color: white;
     }
+    .container-links{
+        font-size: smaller;
+    }
 }
 
 .estudios-img img{
