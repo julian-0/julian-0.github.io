@@ -190,6 +190,13 @@ background-color:  #0075f6;
     .container-links{
         font-size: smaller;
     }
+    .container-sobreMi{
+        display: block;
+    }
+    .sobreMi-img{
+        width: 100%;
+        margin: 0;
+    }
 }
 
 .estudios-img img{
