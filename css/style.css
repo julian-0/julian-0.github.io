@@ -181,6 +181,9 @@ background-color:  #0075f6;
         width: 100%;
         left: 0%;
     }
+    .principal-texto{
+        top: 100px;
+    }
     .principal-texto h1, .principal-texto p{
         color: white;
     }
