@@ -288,6 +288,7 @@ footer{
 }
 
 .datos{
+    padding-top: 15px;
     color: white;
     display: flex;
     justify-content: space-around;
