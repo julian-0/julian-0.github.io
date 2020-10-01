@@ -127,8 +127,13 @@ section{
     margin-top: 80px;
 }
 
-.sobreMi{
-    padding: 100px 0;
+article{
+    padding: 50px 0;
+}
+
+article div h2{
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .container-sobreMi{
@@ -141,6 +146,10 @@ section{
 .sobreMi-texto{
     margin: 30px;
 }
+.sobreMi-texto h2{
+    text-align: left;
+}
+
 #fotoPrincipal{
     width: 100%;
 }
@@ -167,14 +176,14 @@ background-color:  #0075f6;
 }
 
 @media only screen and (max-width: 768px) {
-/* For mobile phones: */
-.principal-imagen{
-    width: 100%;
-    left: 0%;
-}
-.principal-texto h1,p{
-    color: white;
-}
+    /* For mobile phones: */
+    .principal-imagen{
+        width: 100%;
+        left: 0%;
+    }
+    .principal-texto h1, .principal-texto p{
+        color: white;
+    }
 }
 
 .estudios-img img{
@@ -199,4 +208,20 @@ width: 80px;
 .proyectos .card-deck{
     margin-left: 0;
     margin-right: 0;
+}
+
+.estudios-cartas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estudios .card{
+    width: 80%;
+}
+.estudios .card-img{
+    width: 60%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
