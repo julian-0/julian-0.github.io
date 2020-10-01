@@ -65,9 +65,10 @@
                 </div>
                 <div class="sobreMi-texto">
                     <h2>Sobre mi</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut obcaecati, natus maiores, molestias
-                        distinctio fuga saepe alias officia consectetur cumque sint ea! Fugiat obcaecati iste eaque,
-                        expedita unde temporibus inventore.</p>
+                    <p>Tengo 22 años y soy un estudiante avanzado de Ingeniería en Sistemas</p>
+                    <p>Me caracterizo por ser una persona interesada en tener un constante
+                        aprendizaje y evolución, tanto en el ámbito personal como en un entorno de
+                        trabajo</p>
                 </div>
             </div>
         </article>
@@ -244,39 +245,41 @@
             <div>
                 <h2>Idiomas 🌎</h2>
     
-                <div class="idiomas_ingles">
-                    <h4>Ingles</h4>
-                    <p class="idioma-nivel">Intermedio</p>
-                    <img src="img/uk.png" alt="Bandera de UK">
-                </div>
-    
-                <div class="idiomas_español">
-                    <h4>Español</h4>
-                    <p class="idioma-nivel">Nativo</p>
-                    <img src="img/argentina.png" alt="Bandera de Argentina">
+                <div class="idiomas-container">
+                    <div class="idioma_caja">
+                        <h4>Ingles</h4>
+                        <p class="idioma-nivel">Intermedio</p>
+                        <img src="img/uk.png" alt="Bandera de UK">
+                    </div>
+        
+                    <div class="idioma_caja">
+                        <h4>Español</h4>
+                        <p class="idioma-nivel">Nativo</p>
+                        <img src="img/argentina.png" alt="Bandera de Argentina">
+                    </div>
                 </div>
             </div>
 
         </article>
 
-        <article>
-            <div class="contacto" id="contacto">
+        <article class="contacto">
+            <div class="container-contacto col-12 col-md-6 col-lg-4" id="contacto">
                 <h2>Contactame 📨</h2>
                 <form action="https://formspree.io/xoqkonpl" method="POST">
                     <div class="form-group">
                         <label for="_replyto">Tu mail</label>
-                        <input type="text" name="_replyto" id="_replyto" required>
+                        <input class="form-control" type="text" name="_replyto" id="_replyto" placeholder="Mail" required>
                     </div>
                     <div class="form-group">
                         <label for="_subject">Asunto</label>
-                        <input type="text" name="_subject" id="_subject" required>
+                        <input class="form-control" type="text" name="_subject" id="_subject" placeholder="Asunto" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Tu mensaje</label>
-                        <textarea name="message" placeholder="Mensaje" id="message"></textarea>
+                        <textarea class="form-control" name="message" placeholder="Mensaje" id="message"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit">Enviar</button>
+                        <button class="btn btn-secondary form-control mt-5" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -288,19 +291,28 @@
     </section>
 
     <footer>
-        <ul class="redes">
-            <li>
-                <a target="_blank" href="https://www.linkedin.com/in/juli%C3%A1n-ordo%C3%B1ez/"><img
-                        src="img/logos/linkedin.png" alt="Linkedin"></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://github.com/julian-0"><img src="img/logos/github.png" alt="GitHub"></a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.instagram.com/julian.ord/?hl=es"><img src="img/logos/instagram.png"
-                        alt="Instagram"></a>
-            </li>
-        </ul>
+        <div class="datos">
+            <div class="container-redes">
+                <h2>Links de interes 👇</h2>
+                <ul class="redes">
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/juli%C3%A1n-ordo%C3%B1ez/"><img
+                                src="img/logos/linkedin.png" alt="Linkedin"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/julian-0"><img src="img/logos/github.png" alt="GitHub"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/julian.ord/?hl=es"><img src="img/logos/instagram.png"
+                                alt="Instagram"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="masInfo">
+                <p>Mataderos, Ciudad Autónoma de Buenos Aires, Argentina</p>
+                <p>jm.ord98@gmail.com</p>
+            </div>
+        </div>
 
         <div class="despedida">
             <p>Made with 💜 by <span>Julian</span></p>

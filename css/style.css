@@ -120,7 +120,7 @@ nav{
 }
 
 .redes li img{
-    width:2%;
+    width:30px;
 }
 
 section{
@@ -201,10 +201,11 @@ width: 80px;
 }
 
 .despedida{
-    background-color: rgb(61, 61, 61);
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 .despedida p{
     padding: 2px 0;
@@ -230,4 +231,57 @@ width: 80px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.idiomas{
+    background-color:  #0075f6;
+}
+
+.idiomas-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.idioma_caja{
+    padding-top: 20px;
+    height: 200px;
+    width: 150px;
+    background-color: rgba(221, 213, 213, 0.644);
+    border: 2px solid rgb(126, 126, 126);
+    border-radius: 10%;
+    text-align: center;
+}
+
+.contacto{
+    background-image: url('../img/lenguaje-de-programación.jpg')
+}
+
+.container-contacto{
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 2%;
+    margin: auto;
+}
+.container-contacto label, .container-contacto h2{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 61, 61);
+}
+
+.container-redes .redes{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.datos{
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
