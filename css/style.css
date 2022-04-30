@@ -240,6 +240,17 @@ width: 80px;
     transform: translateY(-50%);
 }
 
+.experiencia .card{
+    width: 60%;
+}
+.experiencia .card-img{
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .idiomas{
     background-color:  #0075f6;
 }

@@ -16,7 +16,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180291232-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-180291232-1');
@@ -34,7 +37,8 @@
             <div class="interacciones">
                 <div class="container-links">
                     <ul class="nav-list">
-                        <li><a href="#sobreMi">Sobre mi</a></li>
+                        <li><a href="#sobreMi">Sobre mí</a></li>
+                        <li><a href="#experiencia">Experiencia</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
                         <li><a href="#estudios">Estudios</a></li>
                         <li><a href="#contacto">Contacto</a></li>
@@ -59,8 +63,8 @@
         <div class="principal">
             <div class="principal-texto">
                 <span class="bienvenida"><span class="icon">👋</span> Hola!</span>
-                <h1>Soy <span>Julian Ordoñez</span></h1>
-                <p>Estudiante de Ingenieria en Sistemas</p>
+                <h1>Soy <span>Julián Ordóñez</span></h1>
+                <p>Ingeniero en Sistemas</p>
                 <p class="descarga"><a href="CV - Julián Mateo Ordóñez.pdf" target="_blank">Descargar CV</a></p>
             </div>
 
@@ -75,11 +79,104 @@
                     <img id="fotoPrincipal" src="img/caballo.jpg" alt="Imagen de Julian">
                 </div>
                 <div class="sobreMi-texto">
-                    <h2>Sobre mi</h2>
-                    <p>Tengo 23 años y soy un estudiante avanzado de Ingeniería en Sistemas</p>
+                    <h2>Sobre mí</h2>
                     <p>Me caracterizo por ser una persona interesada en tener un constante
                         aprendizaje y evolución, tanto en el ámbito personal como en un entorno de
                         trabajo</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="experiencia" id="experiencia">
+            <div>
+                <h2>Experiencia laboral 👨‍💻</h2>
+
+                <div class="estudios-cartas">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 text-center">
+                                <img src="img/debmedia.png" alt="Logo Debmedia" class="card-img">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Team leader Integraciones</h5>
+                                    <p class="card-text"><small class="text-muted">Mayo 2021 - Actualidad</small></p>
+                                    <p class="card-text">Liderazgo del equipo de Integraciones construyendo conectores
+                                        entre los sistemas de la empresa y los de los clientes.
+                                        Gestión de los proyectos de inicio a fin coordinando múltiples roles.
+                                        3 personas a cargo.
+                                    </p>
+                                </div>
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Full Stack Developer</h5>
+                                    <p class="card-text"><small class="text-muted">Noviembre 2020 - Abril 2021</small>
+                                    </p>
+                                    <p class="card-text">Desarrollo de aplicaciones web en Java con el framework Play,
+                                        AngularJS para el frontend y bases de datos SQL server.
+                                        Construcción de integraciones entre los sistemas de la empresa con los de los
+                                        clientes mediante API's.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="estudios" id="estudios">
+            <div>
+                <h2>Mis estudios 🤓</h2>
+
+                <div class="estudios-cartas">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 text-center">
+                                <img src="img/utn.png" alt="Logo UTN-BA" class="card-img">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Ingeniería en Sistemas de Información</h5>
+                                    <p class="card-text"><small class="text-muted">Universidad Tecnológica Nacional -
+                                            Buenos Aires</small></p>
+                                    <p class="card-text"><small class="text-muted">2016-2021</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 80%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 text-center">
+                                <img src="img/cAc.png" alt="Logo Codo a Codo" class="card-img">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Desarrollador Fullstack</h5>
+                                    <p class="card-text"><small class="text-muted">Ministerio de Educación de la Ciudad
+                                            de Buenos Aires</small></p>
+                                    <p class="card-text"><small class="text-muted">2020</small></p>
+                                    <p class="card-text">Programa Codo a Codo, aprendí HTML, CSS, JS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3" style="max-width: 80%;">
+                        <div class="row no-gutters">
+                            <div class="col-md-2 text-center">
+                                <img src="img/mbc.png" alt="Logo MBC" class="card-img">
+                            </div>
+                            <div class="col-md-10">
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Bachiller - Perito Mercantil</h5>
+                                    <p class="card-text"><small class="text-muted">Instituto Madre del Buen
+                                            Consejo</small></p>
+                                    <p class="card-text"><small class="text-muted">2011-2015</small></p>
+                                    <p class="card-text">Promedio 8.2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
@@ -201,73 +298,13 @@
             </div>
         </article>
 
-        <article class="estudios" id="estudios">
-            <div>
-                <h2>Mis estudios 🤓</h2>
-
-                <div class="estudios-cartas">
-                    <div class="card mb-3">
-                        <div class="row no-gutters">
-                            <div class="col-md-2 text-center">
-                                <img src="img/utn.png" alt="Logo UTN-BA" class="card-img">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body bg-light">
-                                    <h5 class="card-title">Ingenieria en Sistemas de Información</h5>
-                                    <p class="card-text"><small class="text-muted">Universidad Tecnologica Nacional -
-                                            Buenos Aires</small></p>
-                                    <p class="card-text"><small class="text-muted">2016-Actualidad</small></p>
-                                    <p class="card-text">Actualmente cursando cuarto año con 26 materias aprobadas y un
-                                        promedio de 8.12</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3" style="max-width: 80%;">
-                        <div class="row no-gutters">
-                            <div class="col-md-2 text-center">
-                                <img src="img/cAc.png" alt="Logo Codo a Codo" class="card-img">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body bg-light">
-                                    <h5 class="card-title">Desarrollador Fullstack</h5>
-                                    <p class="card-text"><small class="text-muted">Ministerio de Educación de la Ciudad
-                                            de Buenos Aires</small></p>
-                                    <p class="card-text"><small class="text-muted">2020</small></p>
-                                    <p class="card-text">Programa Codo a Codo, aprendí HTML, CSS, JS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3" style="max-width: 80%;">
-                        <div class="row no-gutters">
-                            <div class="col-md-2 text-center">
-                                <img src="img/mbc.png" alt="Logo MBC" class="card-img">
-                            </div>
-                            <div class="col-md-10">
-                                <div class="card-body bg-light">
-                                    <h5 class="card-title">Bachiller - Perito Mercantil</h5>
-                                    <p class="card-text"><small class="text-muted">Instituto Madre del Buen
-                                            Consejo</small></p>
-                                    <p class="card-text"><small class="text-muted">2011-2015</small></p>
-                                    <p class="card-text">Promedio 8.2</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-
         <article class="idiomas" id="idiomas">
             <div>
                 <h2>Idiomas 🌎</h2>
 
                 <div class="idiomas-container">
                     <div class="idioma_caja">
-                        <h4>Ingles</h4>
+                        <h4>Inglés</h4>
                         <p class="idioma-nivel">Intermedio</p>
                         <img src="img/uk.png" alt="Bandera de UK">
                     </div>
