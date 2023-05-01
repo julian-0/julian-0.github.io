@@ -66,11 +66,6 @@ nav{
     color: #0075f6;
 }
 
-.nav-inicio{
-    font-size: 22px;
-    padding-left: 4%;
-}
-
 .nav-link{
     transition: 0.3s ease-out;
 }
