@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/cara.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/title.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <title>Julián Mateo Ordóñez</title>
@@ -29,7 +29,7 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="nav-inicio">
                 <h4><a class="home" href="index.html">🏠</a></h4>
             </div>
@@ -37,12 +37,17 @@
             <div class="interacciones">
                 <div class="container-links">
                     <ul class="nav-list">
-                        <li><a href="#sobreMi">Sobre mí</a></li>
-                        <li><a href="#experiencia">Experiencia</a></li>
-                        <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#estudios">Estudios</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobreMi">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                     </div>            
                 </div>
                 <!-- <div class="switches">
                     <div class="tema">
@@ -79,7 +84,7 @@
                     <img id="fotoPrincipal" src="img/caballo.jpg" alt="Imagen de Julian">
                 </div>
                 <div class="sobreMi-texto">
-                    <h2>Sobre mí</h2>
+                    <h2><span class="highlight-container"><span class="highlight">Sobre mí</span></span></h2>
                     <p>Me caracterizo por ser una persona interesada en tener un constante
                         aprendizaje y evolución, tanto en el ámbito personal como en un entorno de
                         trabajo</p>
@@ -89,7 +94,7 @@
 
         <article class="experiencia" id="experiencia">
             <div>
-                <h2>Experiencia laboral 👨‍💻</h2>
+                <h2><span class="highlight-container"><span class="highlight">Experiencia laboral 👨‍💻</span></span></h2>
 
                 <div class="estudios-cartas">
                     <div class="card mb-3">
@@ -125,7 +130,7 @@
 
         <article class="estudios" id="estudios">
             <div>
-                <h2>Mis estudios 🤓</h2>
+                <h2><span class="highlight-container"><span class="highlight">Mis estudios 🤓</span></span></h2>
 
                 <div class="estudios-cartas">
                     <div class="card mb-3">
@@ -183,7 +188,7 @@
 
         <article class="proyectos" id="proyectos">
             <div>
-                <h2>Mis proyectos 💻</h2>
+                <h2><span class="highlight-container"><span class="highlight">Mis proyectos 💻</span></span></h2>
 
 
                 <!-- Grid de cartas -->
@@ -197,7 +202,7 @@
                                 <span>🦠</span>
                                 <p class="card-text">Script que genera los gráficos para un bot que informa sobre el
                                     Covid-19 en Argentina.</p>
-                                <p>Informa: Nuevos infectados, recuperados y muertos junto con el total de cada
+                                <p>Informa: Nuevos infectados, recuperados y fallecidos junto con el total de cada
                                     categoría</p>
 
                                 <p class="card-text">Usa información del centro Johns Hopkins</p>
@@ -300,19 +305,29 @@
 
         <article class="idiomas" id="idiomas">
             <div>
-                <h2>Idiomas 🌎</h2>
+                <h2><span class="highlight-container"><span class="highlight">Idiomas 🌎</span></span></h2>
 
-                <div class="idiomas-container">
-                    <div class="idioma_caja">
-                        <h4>Inglés</h4>
-                        <p class="idioma-nivel">Intermedio</p>
-                        <img src="img/uk.png" alt="Bandera de UK">
+                <div class="idiomas-container" id="ingles">
+                    <div class="idioma">
+                        <div class="idioma_caja">
+                            <h4>Español</h4>
+                            <p class="idioma-nivel">Nativo</p>
+                            <span>⭐⭐⭐</span>
+                        </div>
                     </div>
-
-                    <div class="idioma_caja">
-                        <h4>Español</h4>
-                        <p class="idioma-nivel">Nativo</p>
-                        <img src="img/argentina.png" alt="Bandera de Argentina">
+                    <div class="idioma">
+                        <div class="idioma_caja">
+                            <h4>Inglés</h4>
+                            <p class="idioma-nivel">Intermedio</p>
+                            <span>⭐⭐</span>
+                        </div>
+                    </div>
+                    <div class="idioma">
+                        <div class="idioma_caja">
+                            <h4>Portugués</h4>
+                            <p class="idioma-nivel">Básico</p>
+                            <span>⭐</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -320,27 +335,45 @@
         </article>
 
         <article class="contacto">
-            <div class="container-contacto col-12 col-md-6 col-lg-4" id="contacto">
-                <h2>Contactame 📨</h2>
-                <form action="https://formspree.io/xoqkonpl" method="POST">
-                    <div class="form-group">
-                        <label for="_replyto">Tu mail</label>
-                        <input class="form-control" type="text" name="_replyto" id="_replyto" placeholder="Mail"
-                            required>
+            <div>
+                <h2><span class="highlight-container"><span class="highlight">Contactame 📨</span></span></h2>
+                <div class="container-contacto-parent row row-cols-1 row-cols-md-2">
+                    <div class="container-contacto" id="contacto">
+                        <div class="form-parent">
+                            <form action="https://formspree.io/xoqkonpl" method="POST">
+                                <div class="form-group">
+                                    <label for="_replyto">Tu mail</label>
+                                    <input class="form-control" type="text" name="_replyto" id="_replyto" placeholder="Mail"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="_subject">Asunto</label>
+                                    <input class="form-control" type="text" name="_subject" id="_subject" placeholder="Asunto"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Tu mensaje</label>
+                                    <textarea class="form-control" name="message" placeholder="Mensaje" id="message"></textarea>
+                                </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn mr-md-2 mb-md-0 mb-2 btn-outline-primary btn-round">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="_subject">Asunto</label>
-                        <input class="form-control" type="text" name="_subject" id="_subject" placeholder="Asunto"
-                            required>
+                    <div class="container-contacto masInfo text-center">
+                        <div>
+                            <div>
+                                <h4>Julián Ordóñez</h4>
+                                <h5>Ingeniero en Sistemas</h5>
+                            </div>
+                            <div>
+                                <p>🚩 CABA, Argentina</p>
+                                <p>📧 jm.ord98@gmail.com</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="message">Tu mensaje</label>
-                        <textarea class="form-control" name="message" placeholder="Mensaje" id="message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button class="btn btn-secondary form-control mt-5" type="submit">Enviar</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </article>
 
@@ -349,33 +382,23 @@
 
     </section>
 
+    <hr>
+
     <footer>
         <div class="datos">
             <div class="container-redes">
-                <h2>Links de interés 👇</h2>
                 <ul class="redes">
                     <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/juli%C3%A1n-ordo%C3%B1ez/"><img
-                                src="img/logos/linkedin.png" alt="Linkedin"></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/juli%C3%A1n-ordo%C3%B1ez/">Linkedin</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://github.com/julian-0"><img src="img/logos/github.png"
-                                alt="GitHub"></a>
+                        <a target="_blank" href="https://github.com/julian-0">Github</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.instagram.com/julian.ord/?hl=es"><img
-                                src="img/logos/instagram.png" alt="Instagram"></a>
+                        <a target="_blank" href="https://www.instagram.com/julian.ord/?hl=es">Instagram</a>
                     </li>
                 </ul>
             </div>
-            <div class="masInfo">
-                <p>🚩 Mataderos, Ciudad Autónoma de Buenos Aires, Argentina</p>
-                <p>📧 jm.ord98@gmail.com</p>
-            </div>
-        </div>
-
-        <div class="despedida">
-            <p>Made with 💜 by <span>Julián</span></p>
         </div>
     </footer>
 </body>
